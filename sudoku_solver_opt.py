@@ -1,5 +1,5 @@
 """Sudoku Solver
-This program solves a sudoku puzzle using recursion and backtracking."""
+This program solves a sudoku puzzle using recursion."""
 
 from datetime import datetime as dt
 from random import shuffle,randint,choice
@@ -223,7 +223,7 @@ class Board:
         return True
 
 def random_board(filling_degree=1):
-    """A function that creates a solveable sudoku board with a given filling degree.
+    """A function that creates a solvable sudoku board with a given filling degree.
     ### Filling degree
     is a number between 0 and 1 that indicates the percentage of filled tiles.
     1 means that all tiles are filled, 0 means that no tiles are filled."""
@@ -299,8 +299,8 @@ def random_board(filling_degree=1):
     # Return the board after removing tiles
     return board
 
-def create_solveable_board(filling_degree=1,filename=None):
-    """A function that creates a solveable sudoku board with a given filling degree.
+def create_solvable_board(filling_degree=1,filename=None):
+    """A function that creates a solvable sudoku board with a given filling degree.
     and returns the board.
 
     ### Filling degree
